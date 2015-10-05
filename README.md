@@ -1,5 +1,7 @@
-node-red-contrib-chargepoint
+node-red-contrib-carwings
 ========================
+
+[![NPM](https://nodei.co/npm/node-red-contrib-carwings.png)](https://nodei.co/npm/node-red-contrib-carwings/)
 
 [Node-Red][1] nodes for communicating with a Nissan Leaf via the CARWINGS™ API.  
 

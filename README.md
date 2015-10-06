@@ -20,6 +20,12 @@ To access the CARWINGS™ API via these nodes, you will require a [Nissan Owner 
 
 For detailed information on how to register and configure your Nissan Leaf refer to this [video][5]. 
 
+#Example
+
+After installing this package import the following JSON into your Node-RED instance to test.  Remember to fill in your CARWINGS™ login info in the Login node.
+
+    [{"id":"c65bcfe9.1b3ef","type":"Login","name":"","x":340,"y":217,"z":"24123a18.16444e","wires":[["eda39392.baad08"]]},{"id":"eda39392.baad08","type":"RequestUpdate","name":"","x":517,"y":217,"z":"24123a18.16444e","wires":[["173cf0be.7d414f"]]},{"id":"173cf0be.7d414f","type":"VehicleStatus","name":"","x":715,"y":217,"z":"24123a18.16444e","wires":[["214eb98d.adef5e"]]},{"id":"1ce60bb5.66b364","type":"inject","name":"","topic":"","payload":"","payloadType":"none","repeat":"","crontab":"","once":false,"x":178,"y":217,"z":"24123a18.16444e","wires":[["c65bcfe9.1b3ef"]]},{"id":"214eb98d.adef5e","type":"debug","name":"","active":true,"console":"false","complete":"false","x":913,"y":216,"z":"24123a18.16444e","wires":[]}]
+
 #Author
 
 [Jason D. Harper][6]

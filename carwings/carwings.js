@@ -14,9 +14,7 @@
  * limitations under the License.
  **/
  
-module.exports = function(RED) {
-    //"use strict";
-    var RED = require(process.env.NODE_RED_HOME+"/red/red");
+module.exports = function(RED) {    
     var settings = RED.settings;
     var carwings     = require('carwingsjs');
    
